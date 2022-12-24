@@ -1,0 +1,42 @@
+/* ul {
+    padding-left: 0rem;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+
+
+.fa-trash{
+    color: rgb(237, 105, 94);
+    background: inherit;
+    border: none;
+}
+.fa-trash:hover{
+    color: white !important;
+    background: rgb(237, 105, 94) !important;
+}
+
+
+.comments {
+    border-radius: 8px;
+}
+
+hr {
+    margin: 2px 5px;
+    padding: 1px 0;
+} */
+
+body {
+    overflow-x: hidden;
+}
+.feed-img{
+    width: 450px;
+    height: 450px;
+}
+li {
+    list-style-type: none;
+    /* list-style-position: outside; */
+}
