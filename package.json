@@ -1,7 +1,7 @@
 {
-  "name": "binary-upload-boom",
+  "name": "visualize",
   "version": "1.0.0",
-  "description": "100Devs Social Network",
+  "description": "visualize",
   "main": "server.js",
   "scripts": {
     "watch": "nodemon server.js",
