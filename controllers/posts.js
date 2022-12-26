@@ -23,6 +23,7 @@ module.exports = {
       for (let comment of comments) {
         commentsUsers.push(comment.user) // Iterate through comments and pushing all user IDs into the array
       }
+      console.log(commentsUsers)
       const users = await User.find({_id: commentsUsers}).lean();
       res.render("post.ejs", { post: post, user: req.user, comments: comments, users: users, timestamps: timestamps });
     } catch (err) {

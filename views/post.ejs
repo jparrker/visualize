@@ -1,8 +1,8 @@
 <%- include('partials/header') -%>
-  <div class="container justify-content-center  feed text-light" style="background-color: #2c2c32">
+  <div class="container vh-100 justify-content-center  feed text-light" style="background-color: #2c2c32">
     <div class="d-flex flex-row flex-wrap mt-5">
       <div class="d-flex justify-content-center align-items-top col-md-8">
-        <img class="img-fluid mt-5 mb-5" src="<%= post.image%>">
+        <img class="img-fluid mt-5 px-3 mb-5" src="<%= post.image%>">
       </div>
       <div class="d-flex flex-column col m-3">
         <div class="d-flex flex-row justify-content-between">
@@ -30,14 +30,19 @@
               <div class="container" >
                 <% for (let i=0; i < comments.length; i++) {%>
                   <li class="mt-1 comments card" style="background-color: #424242">
-                    <div class="row">
-                      <div class="col-4 mx-2">
+                    <div class="row py-1" >
+                      <div class="col-4 mx-2 p4">
                             <% for (let j = 0; j < users.length; j++) { %>
                               <% if (String(users[j]._id) === comments[i].user) { %>
                                 <a class="fw-bold text-reset text-decoration-none text-light " href="/profile/<%= users[j]._id %>"> <%= users[j].userName %> </a>
-                              <% } %>
+                              
+                                
+                                <% } %>
+                                
                             <% } %>
+                            
                       </div>
+
                       <div class="col-7 justify-content-end ">
                           <span class="small float-end "> <%= timestamps[i] %> </span>
                       </div>

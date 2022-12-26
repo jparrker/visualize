@@ -15,6 +15,7 @@ module.exports = {
         res.redirect("/post/" + req.params.id);
         } catch (err) {
         console.log(err);
+       
         }
     },
 }
