@@ -21,6 +21,7 @@
               <li class="mt-1 pb-2 border-bottom card" style=" background-color: #424242">
                 <% for (let i = 0; i < users.length; i++) { %>
                   <% if (String(users[i]._id) == post.user) { %>
+                   
                     <a class="fw-bold text-reset text-decoration-none card-header" href="/profile/<%= users[i]._id %>"> <%= users[i].userName %> </a>
                   <% } %>
                 <% } %>
@@ -33,6 +34,7 @@
                     <div class="row py-1" >
                       <div class="col-4 mx-2 p4">
                             <% for (let j = 0; j < users.length; j++) { %>
+                              <% console.log(users[j]) %>
                               <% if (String(users[j]._id) === comments[i].user) { %>
                                 <a class="fw-bold text-reset text-decoration-none text-light " href="/profile/<%= users[j]._id %>"> <%= users[j].userName %> </a>
                               
