@@ -64,7 +64,7 @@
         <div class="likes d-flex flex-row ">
           <div class="me-2">
             <form action="/post/likePost/<%= post.id %>?_method=PUT" method="POST">
-              <button class="btn btn-primary fa fa-heart" type="submit"></button>
+              <button class="btn btn-danger fa fa-heart" type="submit"></button>
             </form>
           </div>
           <span class="col-1 align-self-center">
@@ -78,7 +78,7 @@
               <input type="text" class="form-control" id="comment" name="comment" placeholder="Comment">
               <div class="flex-row">
 
-                <button type="submit" class="btn btn-primary mt-2">Post</button>
+                <button type="submit" class="btn btn-success mt-2">Post</button>
               </div>
             </div>
           </form>
