@@ -9,9 +9,9 @@
         </div>
 
         <% if (paramsID == user.id) { %>
-        <div class="container mt-5">
+        <div class="container-md  mt-5 mb-3 p-3 p-3 card text-light w-75" style="background-color:#424242">
           <h2>Add a post</h2>
-          <form action="/post/createPost" enctype="multipart/form-data" method="POST">
+          <form action="/post/createPost" enctype="multipart/form-data" method="POST" >
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" class="form-control" id="title" name="title">
@@ -32,7 +32,7 @@
       </div>
       <div class="container">
         <ul class="row list-unstyled">
-        <% for(var i=0; i<posts.length; i++) {%>
+        <% for(let i = 0; i<posts.length; i++) { %>
           <li class="col-12 col-6 col-md-4 justify-content-between mt-5">
             <a href="/post/<%= posts[i]._id%>">
               <img class="feed-img rounded mx-auto d-block img-fluid img-thumbnail " src="<%= posts[i].image%>">
