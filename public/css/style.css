@@ -31,6 +31,7 @@ hr {
 
 body {
     overflow-x: hidden;
+    background-color: #2c2c32
 }
 .feed-img{
     width: 450px;
