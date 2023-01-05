@@ -3,11 +3,11 @@
 Visualize is a full stack web app where users can register, log in, post memes, and comment on others posts.
 
 **Link to project:**
-https://linx.onrender.com/
+https://visualize.onrender.com/
 
-<img src='https://i.imgur.com/0bt4yK3.png'>
-<img src='https://i.imgur.com/Bpn9D5F.png'>
-<img src='https://i.imgur.com/Jt458Cx.png'>
+<img src='https://i.imgur.com/EhCfzuk.png'>
+<img src='https://i.imgur.com/BBWySwh.png'>
+<img src='https://i.imgur.com/jT4llkW.png'>
 
 ## How It's Made:
 
