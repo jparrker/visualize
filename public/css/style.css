@@ -30,18 +30,22 @@ hr {
 } */
 
 body {
-    overflow-x: hidden;
-    background-color: #2c2c32
+  overflow-x: hidden;
+  background-color: #2c2c32;
 }
-.feed-img{
-    width: 450px;
-    height: 450px;
+.feed-img {
+  width: 450px;
+  height: 450px;
 }
 li {
-    list-style-type: none;
-    /* list-style-position: outside; */
+  list-style-type: none;
+  /* list-style-position: outside; */
 }
 
 .comments {
-    border-radius: 8px;
+  border-radius: 8px;
+}
+
+.fa-linkedin-in {
+  color: #fff;
 }
