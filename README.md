@@ -33,7 +33,7 @@ Robin Herzig : <a href="https://github.com/RobinHerzig">Github</a> - <a href="ht
 Jeff Whetzal : <a href="https://github.com/NothingRemains">Github</a> - <a href="https://www.linkedin.com/in/jwhetzal/">LinkedIn</a><br>
 Larry Nguyen: <a href="https://github.com/vu5381">Github</a> - <a href="https://www.linkedin.com/in/larrydnguyen/">LinkedIn</a><br>
 Jason Parker: <a href="https://github.com/jparrker/">Github</a> - <a href="https://www.linkedin.com/in/jsonparker/">LinkedIn</a><br>
-Jordan Veloso: <a href="https://github.com/jrveloso">Github</a> - <a href="https://www.linkedin.com/in/jordan-veloso/">LinkedIn</a><br><br>
+Jordan Veloso: <a href="https://github.com/jrveloso">Github</a> - <a href="https://www.linkedin.com/in/jordan-veloso/">LinkedIn</a><br>
 Thomas Wright: <a href="https://github.com/thomasxwright">Github</a> - <a href="https://www.linkedin.com/in/thomasxwright/">LinkedIn</a><br><br>
 
 # Install
