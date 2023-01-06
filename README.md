@@ -6,7 +6,7 @@ Visualize is a full stack web app where users can register, log in, post memes, 
 https://visualize.onrender.com/
 
 <img src='https://i.imgur.com/EhCfzuk.png'>
-<img src='https://i.imgur.com/BBWySwh.png'>
+<img src='https://i.imgur.com/nxNwjFch.jpg'>
 <img src='https://i.imgur.com/jT4llkW.png'>
 
 ## How It's Made:
