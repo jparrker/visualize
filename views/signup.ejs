@@ -12,25 +12,30 @@
                         <div class="alert alert-info"><%= el.msg %></div>
                     <% }) %>    
                 <% } %>
-                <form action="/signup" method="POST">
-                    <div class="mb-3">
-                        <label for="userName" class="form-label">User Name</label>
-                        <input type="text" class="form-control" id="userName" name="userName">
-                      </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <h1>Sign up</h1>
+                <form action="/signup" method="POST" >
+                  
+                  <div class="form-group">
+                      <label for="userName" class="text-muted mb-1"><small>Username</small></label>
+                      <input name="userName" id="userName" class="form-control" type="text" placeholder="Pick a username" autocomplete="off">
                     </div>
-                    <div class="mb-3">
-                      <label for="password" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="password" name="password">
+                    
+                    <div class="form-group d-grid">
+                      <label for="email" class="text-muted mb-1"><small>Email</small></label>
+                      <input name="email" id="email" name="email" class="form-control" type="email" placeholder="you@example.com" autocomplete="off">
                     </div>
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword">
-                      </div>
-                    <button type="submit" class="btn btn-primary ">Submit</button>
+                    
+                    <div class="form-group">
+                      <label for="password" class="text-muted mb-1"><small>Password</small></label>
+                      <input name="password" id="password" class="form-control" type="password" placeholder="Create a password">
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="text-muted mb-1"><small>Password</small></label>
+                      <input name="confirmPassword" id="password" class="form-control" type="password" placeholder="Confirm password">
+                    </div>
+                    <div class="d-grid">
+                    <button type="submit" class="py-3 mt-4 btn btn-lg btn-danger btn-block">Sign up for Visualize</button>
+                  </div>
                   </form>
             </section>
         </div>
